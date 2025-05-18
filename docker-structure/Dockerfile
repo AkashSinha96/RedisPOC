@@ -8,4 +8,4 @@ WORKDIR /app
 COPY out .
 
 # Specify the entry point for the application
-ENTRYPOINT ["dotnet", "RedisClusterTest.dll"]
+ENTRYPOINT ["dotnet", "RedisPOC.dll"]
